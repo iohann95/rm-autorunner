@@ -8,7 +8,7 @@ SET PATCHRM1=\\fileserver\Publico\Totvs\PATCH-12.1.28.227.exe
 SET VCREDIST=\\fileserver\Publico\Totvs\vc_redist.x86.exe
 SET NATIVECLIENTRM=\\fileserver\Publico\Totvs\sqlncli.msi
 SET VERSAORM=12.1.28.227
-::Se a variavel estiver ativar, os instaladores serao copiados ao TEMP antes da instalacao
+::Se a variavel estiver ativa, os instaladores serao copiados ao TEMP antes da instalacao
 ::SET "COPIAR= "
 
 ::==========================================
