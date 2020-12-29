@@ -152,7 +152,7 @@ echo:
 echo ========================================
 echo FIM DA INSTALACAO DO RM %VERSAORM%
 echo ========================================
-timeout /t 5
+PAUSE
 EXIT
 
 :d_uac
