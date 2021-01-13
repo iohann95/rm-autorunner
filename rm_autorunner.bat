@@ -9,7 +9,7 @@ SET VCREDIST=\\fileserver\Publico\Totvs\vc_redist.x86.exe
 SET NATIVECLIENTRM=\\fileserver\Publico\Totvs\sqlncli.msi
 SET VERSAORM=12.1.28.227
 ::Se a variavel estiver ativa, os instaladores serao copiados ao TEMP antes da instalacao
-::SET "COPIAR= "
+SET "COPIAR= "
 
 ::==========================================
 :get_admin
@@ -66,7 +66,7 @@ for %%A in ("%PATCHRM1%") do (
 echo Copiando %%~nA ...
 copy /Y %PATCHRM1% %TEMP%
 SET PATCHRM1=%TEMP%\%%~nxA)
-for %%A in ("VCREDIST%") do (
+for %%A in ("%VCREDIST%") do (
 echo Copiando %%~nA ...
 copy /Y %VCREDIST% %TEMP%
 SET VCREDIST=%TEMP%\%%~nxA)
